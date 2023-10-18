@@ -10,7 +10,7 @@
 *Motivação*: Uma plataforma de streaming baseada em microserviços, sendo reconhecido como um sinônimo de arquitetura, além de ter criado o 'Eureka Netflix' como Discovery de serviços para o Spring Boot
 
 
-#Introdução:
+# Introdução:
 A Netflix é uma empresa de entretenimento que opera uma plataforma de streaming de vídeo, permitindo que os assinantes assistam a uma ampla variedade de programas de TV, filmes, documentários e outros conteúdos através da internet. Fundada em 1997 nos Estados Unidos por Reed Hastings e Marc Randolph, a empresa começou como um serviço de locação de DVDs pelo correio, mas posteriormente se tornou líder no mercado de streaming de vídeo.
 
 
@@ -19,7 +19,7 @@ A principal característica da Netflix é a sua extensa biblioteca de conteúdo 
 
 De acordo com matéria divulgada pelo jornal Exame, a Netflix informou que possui, em janeiro de 2023, cerca de 231 milhões de usuários ativos, em mais de 200 países, que assinam a plataforma mensalmente, totalizando um valor de U$830 milhões em 2023. Nesse sentido, visando a otimização do funcionamento do sistema e a disponibilidade ininterrupta da plataforma, foi configurada uma arquitetura de software visando esses pontos.
 
-#Requisitos de Segurança
+# Requisitos de Segurança
 Sob esse viés, o artigo chamado “Netflix Security Architecture”, publicado pela Netflix em 2023, definiu os seguintes requisitos de segurança que o sistema deve seguir, sendo eles: 
 
 
