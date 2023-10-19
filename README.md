@@ -1,7 +1,7 @@
 # Arquitetura de Software Netflix
 
 ## Integrantes
-  * Arthur Menexes
+  * Arthur Menezes
   * André Sathler
   * Lucas Santos
   * Matheus Fontes
