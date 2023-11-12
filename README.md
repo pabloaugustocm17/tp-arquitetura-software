@@ -46,3 +46,17 @@ Recuperação de desastres: Planejamento de um protocolo de recuperação de des
 
 
 Segundo a empresa Antenna, instituição especializada em pesquisa de mercado, é difícil estipular uma quantidade de acessos simultâneos que a Netflix suporta. Contudo, fazendo uma conta básica, é possível presumir que, considerando a média de 2,2 acessos por dia de cada usuário, são cerca de 450 milhões de acessos que a plataforma possui por dia. Outrossim, levando em conta ainda o total de 2 horas por dia de consumo de produtos dentro da plataforma de streaming por cada usuário, cerca de 440 milhões de horas/dia são assistidas dentro da Netflix
+
+
+
+# Proton
+## Introdução
+
+## Para que Serve
+
+A arquitetura do Proton é uma parte fundamental da infraestrutura de streaming de vídeo da Netflix. Ela permite que a Netflix forneça uma experiência de streaming de vídeo consistente e de alta qualidade para seus usuários ao redor do mundo
+
+*Para fornecer conteúdo de vídeo de alta qualidade: A arquitetura do Proton permite que a Netflix armazene e entregue conteúdo de vídeo em formatos de alta qualidade.
+*Para fornecer conteúdo de vídeo globalmente: A arquitetura do Proton permite que a Netflix distribua conteúdo de vídeo para usuários em todo o mundo.
+*Para fornecer conteúdo de vídeo personalizado: A arquitetura do Proton permite que a Netflix personalize o conteúdo de vídeo que é entregue aos usuários com base em seus interesses e preferências.
+
