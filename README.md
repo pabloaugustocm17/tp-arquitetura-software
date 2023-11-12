@@ -52,11 +52,13 @@ Segundo a empresa Antenna, instituição especializada em pesquisa de mercado, �
 # Proton
 ## Introdução
 
-## Para que Serve
+## Objetivos
 
-A arquitetura do Proton é uma parte fundamental da infraestrutura de streaming de vídeo da Netflix. Ela permite que a Netflix forneça uma experiência de streaming de vídeo consistente e de alta qualidade para seus usuários ao redor do mundo
+A arquitetura do Proton é uma parte fundamental da infraestrutura de streaming de vídeo da Netflix. Ela permite que a Netflix forneça uma experiência de streaming de vídeo consistente e de alta qualidade para seus usuários ao redor do mundo, mesmo com a quantidade de usuários simultâneos e a grande quantidade de dados trafegadas. E os objetivos dessa arquitetura são:
 
-* Para fornecer conteúdo de vídeo de alta qualidade: A arquitetura do Proton permite que a Netflix armazene e entregue conteúdo de vídeo em formatos de alta qualidade.
-* Para fornecer conteúdo de vídeo globalmente: A arquitetura do Proton permite que a Netflix distribua conteúdo de vídeo para usuários em todo o mundo.
-* Para fornecer conteúdo de vídeo personalizado: A arquitetura do Proton permite que a Netflix personalize o conteúdo de vídeo que é entregue aos usuários com base em seus interesses e preferências.
+* Entregue conteúdo de vídeo em formatos de alta qualidade.
+* Fornecer conteúdo de vídeo para todos os usuários independete de sua localização no mundo.
+* Personalizar o conteúdo de vídeo que é entregue aos usuários com base em seus interesses e preferências.
 
+### Referências
+https://netflixtechblog.com/netflix-and-the-imf-community-7117a66b3c47
