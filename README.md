@@ -55,12 +55,18 @@ Segundo a empresa Antenna, instituição especializada em pesquisa de mercado, �
 O Photon nasceu com a proposta de melhorar o Buffering dos Steamings feito pela Netflix, sendo este um dos projetos Open Source disponibilizados por eles. Ele funciona via as regras impostas pela SMPTE utilizando-se do TimeCode para metrificação e sincronização de áudio/vídeo.
 
 ## Objetivos
+O Photon tem como objetivo principal simplificar e aprofundar a utilização do padrão IMF (Interoperable Master Format), sendo este um padrão internacional de entrega e troca de conteúdo audiovisual, usado na produção, pós-produção e distribuição de filmes e programas de televisão. O IMF foi desenvolvido para simplificar e padronizar a distribuição de conteúdo audiovisual em diferentes plataformas e regiões. Ele permite a criação de um único pacote mestre que pode ser adaptado para atender a várias especificações de entrega, como resolução, idioma e legendas. Isso oferece eficiência na distribuição global de conteúdo, reduzindo a necessidade de múltiplas versões do mesmo conteúdo para diferentes plataformas ou regiões.
 
-A arquitetura do Photon é uma parte fundamental da infraestrutura de streaming de vídeo da Netflix. Ela permite que a Netflix forneça uma experiência de streaming de vídeo consistente e de alta qualidade para seus usuários ao redor do mundo, mesmo com a quantidade de usuários simultâneos e a grande quantidade de dados trafegadas. E os objetivos dessa arquitetura são:
+Sob esse viés, o Photon utiliza-se de todo o seu conhecimento para gerar um flow automatizado e baseado em nuvem que consegue potencializar os benefícios do IMF, conforme visto nessa imagem: 
+![image](https://github.com/pabloaugustocm17/tp-arquitetura-software/assets/91166507/a291f06e-65d7-40d2-9c68-238f429b6fd0)
 
-* Entregar conteúdo de vídeo em formatos de alta qualidade (Full HD, 4K)
-* Fornecer conteúdo de vídeo para todos os usuários independete de sua localização no mundo.
-* Personalizar o conteúdo de vídeo que é entregue aos usuários com base em seus interesses e preferências.
+A Netflix continua usando essa arquitetura e possui um time especializado que busca sempre aprimorar os passos desse workflow, visando sempre melhorias para a arquitetura já consolidada.
+
+Ademais, o Photon possui toda a lógica necessária para validar o IMF ncluindo Mapa de Ativos, Lista de Empacotamento (PKL), Lista de Reprodução de Composição (CPL) e arquivos de faixas de Áudio/Vídeo. A Netflix utiliza-se de algumas normas para manutenção da implementação do Photon, como:
+1. Suporte para múltiplos espaços de nomes para Lista de Reprodução de Composição, Lista de Empacotamento e Mapa de Ativos, a fim de manter a conformidade com os novos esquemas publicados pela SMPTE.
+2. Implementação de inspeção detalhada de ativos IMF, incluindo algoritmos para conformidade e associatividade da Lista de Reprodução de Composição (mais sobre esse aspecto abaixo).
+3. Uma interface sem estado para validação IMF que pode ser utilizada como backend em um serviço web RESTful para validar pacotes IMF.
+4. Uma arquitetura modular juntamente com um conjunto de classes seguras para threads para validar ativos IMF, como Lista de Reprodução de Composição, Lista de Empacotamento e Mapa de Ativos.
 
 ## Instalação
 
