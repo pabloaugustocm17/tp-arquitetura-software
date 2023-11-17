@@ -49,16 +49,31 @@ Segundo a empresa Antenna, instituição especializada em pesquisa de mercado, �
 
 
 
-# Proton
+# Photon
 ## Introdução
+
+O Photon nasceu com a proposta de melhorar o Buffering dos Steamings feito pela Netflix, sendo este um dos projetos Open Source disponibilizados por eles. Ele funciona via as regras impostas pela SMPTE utilizando-se do TimeCode para metrificação e sincronização de áudio/vídeo.
 
 ## Objetivos
 
-A arquitetura do Proton é uma parte fundamental da infraestrutura de streaming de vídeo da Netflix. Ela permite que a Netflix forneça uma experiência de streaming de vídeo consistente e de alta qualidade para seus usuários ao redor do mundo, mesmo com a quantidade de usuários simultâneos e a grande quantidade de dados trafegadas. E os objetivos dessa arquitetura são:
+A arquitetura do Photon é uma parte fundamental da infraestrutura de streaming de vídeo da Netflix. Ela permite que a Netflix forneça uma experiência de streaming de vídeo consistente e de alta qualidade para seus usuários ao redor do mundo, mesmo com a quantidade de usuários simultâneos e a grande quantidade de dados trafegadas. E os objetivos dessa arquitetura são:
 
 * Entregar conteúdo de vídeo em formatos de alta qualidade (Full HD, 4K)
 * Fornecer conteúdo de vídeo para todos os usuários independete de sua localização no mundo.
 * Personalizar o conteúdo de vídeo que é entregue aos usuários com base em seus interesses e preferências.
 
+## Instalação
+
+O Funcionamento desta ferramenta é focado em Java, segue sua biblioteca no gerenciador do Maven:
+
+```xml
+<dependency>
+    <groupId>com.netflix.photon</groupId>
+    <artifactId>Photon</artifactId>
+    <version>0.1.1</version>
+</dependency>
+```
+
 ### Referências
 https://netflixtechblog.com/netflix-and-the-imf-community-7117a66b3c47
+https://github.com/Netflix/photon
