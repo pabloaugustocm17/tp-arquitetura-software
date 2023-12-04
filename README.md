@@ -80,6 +80,43 @@ O Funcionamento desta ferramenta é focado em Java, segue sua biblioteca no gere
 </dependency>
 ```
 
+
+# Tecnologias e Arquiteturas de software
+
+## Computação em nuvem da Amazon Web Services
+A nuvem é o espaço onde os dados, softwares, aplicativos e serviços são hospedados, e o acesso a esses recursos podem ser feitos por meio da internet
+
+AWS possui servidores localizados em pólos de cada continente, a empresa ao assinar a AWS consegue alugar recursos de hardware desses servidores para hospedar sua aplicação, evitando assim gastos com servidores privados.
+
+## Microserviços
+
+Microserviços é um modelo arquitetônico que consiste em pequenos serviços independentes que se comunicam usando APIs.
+
+Diferente das arquiteturas monolíticas a arquitetura de microsserviços é mais escalável pois é possível alterar um serviço sem que tenha que alterar os outros, além disso quando o aplicativo apresenta um pico de serviço é possível aumentar o recurso daquele determinado produto ao invés de toda a aplicação.
+
+## Arquitetura orientada a serviço (SOA)
+
+Arquitetura orientada a serviços (SOA) é um método de desenvolvimento de software que utiliza serviços para criar aplicações de negócios.
+ 
+Cada serviço fornece um recurso de negócios, e podem se comunicar entre si em diferentes.
+
+## Padrão IMF
+
+IMF é um formato de mídia baseado em arquivo digital que simplifica a entrega e armazenamento de um produto final audiovisual com intenção de atingir múltiplas plataformas e territórios. 
+
+## Continuous Delivery 
+
+Continuous Delivery é uma prática de desenvolvimento de software na qual as alterações são automaticamente preparadas para uma liberação em produção. 
+
+Ela permite que cada alteração seja criada, testada e enviada para um ambiente de teste, que não pertence à produção. Essa prática permite que o processo seja automatizado, melhora a produtividade dos desenvolvedores já que eles poderão se concentrar na implementação ao invés de tarefas manuais, permite que os bugs do sistema sejam encontrados mais rapidamente e que as atualizações sejam distribuídas mais rapidamente. 
+
+## GraphQL
+
+GraphQL, Graph Query Language, é uma linguagem de consulta, ou query, mas seu uso não envolve implementar banco de dados, e sim, definir dados para uma API.
+
+Com o graphQL é possível que as aplicações controlem os dados que elas desejam obter, ao invés do servidor, isso permite que elas sejam mais rápidas e estáveis.
+
+
 ### Referências
 https://netflixtechblog.com/netflix-and-the-imf-community-7117a66b3c47
 https://github.com/Netflix/photon
@@ -88,4 +125,5 @@ https://aws.amazon.com/pt/what-is/service-oriented-architecture/
 https://aws.amazon.com/pt/microservices/
 https://www.imfug.com/explainer/imf-explicado/
 https://aws.amazon.com/pt/devops/continuous-delivery/
+https://medium.com/@emerson_pereira/introdu%C3%A7%C3%A3o-a-graphql-cbd1697784bf
 
