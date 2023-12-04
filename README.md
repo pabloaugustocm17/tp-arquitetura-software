@@ -118,12 +118,11 @@ Com o graphQL é possível que as aplicações controlem os dados que elas desej
 
 
 ### Referências
-https://netflixtechblog.com/netflix-and-the-imf-community-7117a66b3c47
-https://github.com/Netflix/photon
-https://rockcontent.com/br/blog/cloud-computing/
-https://aws.amazon.com/pt/what-is/service-oriented-architecture/
-https://aws.amazon.com/pt/microservices/
-https://www.imfug.com/explainer/imf-explicado/
-https://aws.amazon.com/pt/devops/continuous-delivery/
-https://medium.com/@emerson_pereira/introdu%C3%A7%C3%A3o-a-graphql-cbd1697784bf
-
+https://netflixtechblog.com/netflix-and-the-imf-community-7117a66b3c47  
+https://github.com/Netflix/photon  
+https://rockcontent.com/br/blog/cloud-computing/  
+https://aws.amazon.com/pt/what-is/service-oriented-architecture/  
+https://aws.amazon.com/pt/microservices/  
+https://www.imfug.com/explainer/imf-explicado/  
+https://aws.amazon.com/pt/devops/continuous-delivery/  
+https://medium.com/@emerson_pereira/introdu%C3%A7%C3%A3o-a-graphql-cbd1697784bf  
