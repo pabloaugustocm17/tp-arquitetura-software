@@ -83,3 +83,9 @@ O Funcionamento desta ferramenta é focado em Java, segue sua biblioteca no gere
 ### Referências
 https://netflixtechblog.com/netflix-and-the-imf-community-7117a66b3c47
 https://github.com/Netflix/photon
+https://rockcontent.com/br/blog/cloud-computing/
+https://aws.amazon.com/pt/what-is/service-oriented-architecture/
+https://aws.amazon.com/pt/microservices/
+https://www.imfug.com/explainer/imf-explicado/
+https://aws.amazon.com/pt/devops/continuous-delivery/
+
